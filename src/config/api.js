@@ -4,6 +4,6 @@ const API_SEARCH_DOMAIN = "https://gnews.io/api/v4/search?q=";
 const API_KEY = "0f0122346aa550cf7bd9b69790434cb5"; // fesoc50354@cgbird.com
 
 export const endpointPath = (country, category) =>
-  `${API_DOMAIN}${country}&lang=en&category=${category}&apikey=${API_KEY}`;
+  `${API_DOMAIN}${country}&lang=hi&category=${category}&apikey=${API_KEY}`;
 export const endpointSearch = (searchQuery) =>
   `${API_SEARCH_DOMAIN}${searchQuery}&lang=en&apikey=${API_KEY}`;
