@@ -15,9 +15,11 @@ export const navs = [
   { nav: "Health", page: "/categories/health" },
   { nav: "Entertainment", page: "/categories/entertainment" },
   { nav: "Technology", page: "/categories/technology" },
+ 
 ];
 
 export const router = [
+  
   // { path: "/", key: "general", category: "general", country: "us" },
   // { path: "/categories/general", key: "general", category: "general", country: "us" },
   // { path: "/categories/business", key: "business", category: "business", country: "us" },
@@ -37,6 +39,7 @@ export const router = [
   { path: "/categories/health", key: "health", category: "health", country: "in" },
   { path: "/categories/entertainment", key: "entertainment", category: "entertainment",country: "in" },
   { path: "/categories/technology", key: "technology", category: "technology", country: "in" }
+  
 ];
 
 export const summary = "Channel and PublishedAt";

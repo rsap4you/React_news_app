@@ -19,8 +19,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+  /* transition: all 0.3s ease-in-out; */
 }
 
 .wrapper .icon:hover {
@@ -70,7 +70,7 @@
   text-decoration: none;
 }
 
-/* Social media specific styles */
+
 .wrapper .icon.facebook:hover {
   background: #3b5998;
 }

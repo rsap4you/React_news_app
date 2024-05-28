@@ -70,10 +70,11 @@ function News(props) {
               })}
             </Row>
           </Container>
+          <Footer></Footer>
         </>
       )}
 
-      <Footer></Footer>
+      
     </>
   );
 }

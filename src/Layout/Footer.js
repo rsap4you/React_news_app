@@ -14,7 +14,7 @@ const Footer = () => {
     return (
         <>
             {/* Footer Start */}
-            <footer className="footer" style={{ width: "100%", backgroundColor: "#343a40", color: "#ffffff", padding: "20px 0",marginTop:"10%" }}>
+            <footer className="footer" style={{ width: "100%", backgroundColor: "#343a40", color: "#ffffff", padding: "20px",marginBottom:"1%"}}>
                 <div className="container-fluid">
                     <div className="row justify-content-between">
                         <ul className="wrapper">

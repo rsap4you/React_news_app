@@ -5,7 +5,8 @@ import News from "./components/News/News";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { router } from "./config/config";
 import Search from "./components/Search/Search";
-import Footer from "./Layout/Footer";
+import Term_condition from "./Layout/terms_condition";
+
 function App() {
   return (
     <>
@@ -27,7 +28,7 @@ function App() {
             />
           ))}
           <Route path="/search/:query" element={<Search />} />
-          
+          <Route path="terms_condition" element={<Term_condition />} />
         </Routes>
 
       </Router>
